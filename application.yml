@@ -6,8 +6,3 @@ eureka:
     register-with-eureka: 'true'
   instance:
     hostname: localhost
-    
-
-spring:
-  config:
-    import: 'optional:configserver:'
